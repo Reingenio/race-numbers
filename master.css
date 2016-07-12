@@ -1,0 +1,12 @@
+h1 {
+  font-size: 38vh;
+  margin-top: -30px;
+}
+.number{
+  border-width: medium;
+  border-style: solid;
+  border-color: gray;
+}
+img{
+  height: 100px;
+}
