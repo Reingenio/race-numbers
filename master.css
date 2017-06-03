@@ -1,6 +1,5 @@
 h1 {
-  font-size: 38vh;
-  margin-top: -30px;
+  font-size: 36vh;
 }
 .number{
   border-width: medium;
@@ -8,5 +7,17 @@ h1 {
   border-color: gray;
 }
 img{
+  margin-top: 30px;
   height: 100px;
+}
+@media all {
+ .breakline{
+    display: none;
+ }
+}
+@media print{
+ .breakline{
+    display:block;
+    page-break-before:always;
+ }
 }
